@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Rewrite "/tele/devices" to "/tele/devices.php"
+RewriteRule ^devices$ pages/devices.php [L]
+RewriteRule ^channels$ pages/channels.php [L]
+
+# Rewrite "/tele/" to "/tele/index.php"
+RewriteRule ^$ pages/index.php [L]
